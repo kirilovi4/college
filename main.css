@@ -827,6 +827,21 @@ button{
 .container, .container-1, .container-2, .container-3{
     margin: 0;
 }
+.header{
+    height: 850px;
+}
+.content-1{
+    height: 1100px;
+}
+.content-2{
+    height: 750px;
+}
+.content-3{
+    height: 650px;
+}
+.container-3{
+    margin-top: 0;
+}
 .parallelogramm-1, .parallelogramm-2{
     display: none;
 }
@@ -907,7 +922,7 @@ button{
 .learnMore-1{
     width: 35%;
     margin-left: 2%;
-    margin-top: 187px;
+    margin-top: 87px;
 }
 .round > img{
     width: 375px;
@@ -932,7 +947,7 @@ button{
 }
 .learnMore-2{
     width: 100%;
-    margin-top: 327px;
+    margin-top: 377px;
 }
 .inform{
     width: 99%;
@@ -945,8 +960,11 @@ button{
 .howWeCanPlan > a{
     font-size: 16px;
 }
+.learnMore > p{
+    font-size: 16px;
+}
 .services{
-    margin-top: 75px;
+    margin-top: 0;
 }
 .quickLinks{
     display: none;
@@ -966,6 +984,9 @@ button{
     -ms-grid-row: 1;
     -ms-grid-column: 2;
 }
+.footerLogo, .email{
+    padding-top: 150px;
+}
 }
 @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active){
     .mainHeaderImg{
@@ -976,10 +997,12 @@ button{
         left: 0;
         width: 100%;
     }
-    .mainHeaderImg{
-        display: none;
-    }
-    .header{
-        height: 850px;
-    }
+}
+@media(max-width: 768px) and (-ms-high-contrast: none), (-ms-high-contrast: active){
+        .mainHeaderImg{
+            display: none;
+        }
+        .header{
+            height: 850px;
+        }
 }
