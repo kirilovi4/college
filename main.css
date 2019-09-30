@@ -3,7 +3,14 @@ body{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
-#header{
+a{
+    text-decoration: none;
+    color: #ffffff; 
+}
+button, .menuIcon:hover{
+    cursor: pointer;
+}
+.header{
     height: 983px;
     width: 100%;
 }
@@ -81,6 +88,9 @@ body{
         -ms-flex-align: center;
             align-items: center;
 }
+.search:hover{
+    cursor: pointer;
+}
 .search > img{
     width: 40px;
     height: 40px;
@@ -128,7 +138,7 @@ body{
     font-size: 52px;
     letter-spacing: 2px;
 }
-#preparedText{
+.preparedTextStrong{
     color: #5A8ADC;
 }
 .speechText{
@@ -266,7 +276,7 @@ body{
         -ms-flex-align: center;
             align-items: center;
 }
-#roundBottomLeft{
+.roundBottomLeft{
     margin-right: 267px;
 }
 .roundUnder{
@@ -293,7 +303,7 @@ body{
         -ms-flex-direction: column;
             flex-direction: column;
 }
-#learnMore-1{
+.learnMore-1{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -309,11 +319,11 @@ body{
     margin-right: 0;
     margin-top: 187px;
 }
-#learnMore-1 .learnMore{
+.learnMore-1 .learnMore{
     margin-left: 0;
     margin-right: 0;
 }
-#learnMore-2{
+.learnMore-2{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -345,6 +355,9 @@ body{
             align-items: center;
     margin-right: 10px;
 }
+.linkLearnMore:hover{
+    cursor: pointer;
+}
 .arrow{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -357,7 +370,7 @@ body{
 .arrow > img{
     margin-right: -5px;
 }
-.linkLearnMore > p{
+.linkLearnMore > p > a{
     border-bottom: 1px #ffffff solid;
     font-size: 12px;
     margin-right: 8px;
@@ -537,7 +550,7 @@ button{
 .container, .container-1, .container-2, .container-3{
     margin: 0;
 }
-#header{
+.header{
     height: 1203px;
 }
 .container{
@@ -891,7 +904,7 @@ button{
     font-size: 12px;
     text-align: right;
 }
-#learnMore-1{
+.learnMore-1{
     width: 35%;
     margin-left: 2%;
     margin-top: 187px;
@@ -911,13 +924,13 @@ button{
     height: 50px;
     margin-top: 0;
 }
-#roundBottomLeft{
+.roundBottomLeft{
     margin-right: 133px;
 }
 .roundTop{
     margin-top: 50px;
 }
-#learnMore-2{
+.learnMore-2{
     width: 100%;
     margin-top: 327px;
 }
@@ -962,5 +975,11 @@ button{
         position: absolute;
         left: 0;
         width: 100%;
+    }
+    .mainHeaderImg{
+        display: none;
+    }
+    .header{
+        height: 850px;
     }
 }
